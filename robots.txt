@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jgjanitorial.netlify.app/sitemap.xml
