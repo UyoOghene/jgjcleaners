@@ -1,4 +1,89 @@
+# robots.txt for JG Janitorial & Cleaning Services
+# https://jgjanitorial.netlify.app/
+# Last updated: 2025-01-01
+
+# ---------------------------------------------------------------
+# Default: allow all well-behaved crawlers
+# ---------------------------------------------------------------
 User-agent: *
 Allow: /
 
+# Explicitly allow key pages (harmless, but makes intent clear)
+Allow: /$
+Allow: /index.html
+Allow: /privacy.html
+Allow: /style.css
+Allow: /app.js
+
+# ---------------------------------------------------------------
+# Block form-submission / private endpoints if they ever exist
+# (Formspree is external, so this is future-proofing only)
+# ---------------------------------------------------------------
+Disallow: /thank-you
+Disallow: /thank-you.html
+Disallow: /admin
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /*?utm_
+Disallow: /*?fbclid=
+Disallow: /*?gclid=
+
+# ---------------------------------------------------------------
+# Block aggressive / SEO-only scrapers (optional — polite request)
+# ---------------------------------------------------------------
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 10
+
+User-agent: DotBot
+Crawl-delay: 10
+
+# ---------------------------------------------------------------
+# AI training crawlers — block to protect original content
+# (Remove these blocks if you WANT to be included in AI training)
+# ---------------------------------------------------------------
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+# ---------------------------------------------------------------
+# Sitemap location
+# ---------------------------------------------------------------
 Sitemap: https://jgjanitorial.netlify.app/sitemap.xml
