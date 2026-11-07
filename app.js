@@ -166,7 +166,7 @@
   });
 
   // ============================================
-  // ACTIVE NAV LINK HIGHLIGHT (optional, progressive enhancement)
+  // ACTIVE NAV LINK HIGHLIGHT 
   // ============================================
   var sections = document.querySelectorAll('section[id]');
   var navLinks = document.querySelectorAll('nav a[href^="#"]');
