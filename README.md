@@ -348,6 +348,7 @@ Update **section 6 (Sharing & processors)** and, if tracking is introduced, **se
 
 ## Credits
 
+- **Collaborator & contributor:** [Manos Akpujiha](https://github.com/manosakpujiha) — ongoing website development, maintenance and improvements.
 - **Design &amp; development:** custom build for JG Janitorial &amp; Cleaning Services.
 - **Photography:** stock images from Pexels and Pixabay (see filenames for attribution slugs); brand photography provided by the client.
 - **Fonts:** [Fraunces](https://fonts.google.com/specimen/Fraunces) and [Outfit](https://fonts.google.com/specimen/Outfit), both licensed under the SIL Open Font License.
