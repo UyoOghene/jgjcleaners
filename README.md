@@ -78,9 +78,6 @@ No package manager, no bundler, no node_modules. Clone and open `index.html`.
     └── ...
 ```
 
-> ⚠️ **Filenames with spaces and parentheses** (e.g. the logo) work but are fragile — if you rename it, update every reference in `index.html`, `privacy.html` and the JSON-LD blocks. Consider renaming to `logo.png` when convenient.
-
----
 
 ## Local development
 
