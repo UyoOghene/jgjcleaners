@@ -3,9 +3,9 @@ JG Janitorial &amp; Cleaning Services — Website
 
 Official marketing website for **JG Janitorial &amp; Cleaning Services**, a professional residential, commercial and rental cleaning company serving **Manitoulin Island, Ontario** (Little Current, Mindemoya, Espanola and surrounding communities).
 
-- **Live site:** [https://jgjanitorial.netlify.app/](https://jgjanitorial.netlify.app/)
-- **Privacy policy:** [https://jgjanitorial.netlify.app/privacy.html](https://jgjanitorial.netlify.app/privacy.html)
-- **Contact:** Jgjanitorialcleaningservices@gmail.com · 437 226 9239
+- **Live site:** https://jgjanitorial.ca
+- **Privacy policy:** https://jgjanitorial.ca//privacy.html
+- **Contact:** Jgjanitorialcleaningservices@gmail.com · +1 437 226 9239
 
 ---
 
